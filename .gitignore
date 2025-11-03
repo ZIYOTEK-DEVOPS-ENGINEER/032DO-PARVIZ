@@ -1,0 +1,38 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+
+# Ansible cache
+*.retry
+
+# Docker
+*.pid
+*.sock
+.dockerignore
+docker-compose.override.yml
+
+# Build / Output
+dist/
+build/
+output/
+tmp/
+
